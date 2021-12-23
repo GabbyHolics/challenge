@@ -1,6 +1,6 @@
-# Ejercicio 3  Marvel API
+# Ejercicio 3  Marvel API 🎥
 
-## Caracteristicas 
+## Caracteristicas 🤓
 
 - Carga básica de 20 héroes 
 - Muestra nombre, miniatura, fecha de modificación(dd/mm/yyyy), y descripción de cada héroe.
@@ -15,9 +15,9 @@
 
 ### Mobile
 
-![Versión Mobile](src/assets/movil.png)
+![Versión Mobile](src/assets/Movil.png)
 
-#### Tecnologías
+#### Tecnologías 🤖
 
 * React.js
 * NodeJS
@@ -26,5 +26,7 @@
 * npm
 * Git
 * Axios
+
+
 
 

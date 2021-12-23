@@ -3,18 +3,4 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --color-red: rgb(226,54,54);
-    --color-black: rgb(0,0,0);
-    --color-gray: rgb(80,74,74);
-    --color-blue: rgb(81,140,202);
-    --margin-2: 2%
-}
 
-.red{
-    background-color: var(--color-red)
-}
-.widthCard{
-    width: 15rem;
-    overflow: hidden;
-}

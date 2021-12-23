@@ -1,10 +1,8 @@
-# Challenges 
+# Challenge 💪
 
 ## Cómo instalar/ejecutar
 
-
-
-### Instalación
+### Instalación 👀
 
 1. Clonar el Repositorio
 
@@ -30,6 +28,6 @@ npm run start
 ```
 <hr>
 
-Muchas gracias por la oportunidad y el desafio. La verdad fue un gran reto para mi poder realizarlo. 
+Muchas gracias por la oportunidad y el desafio. La verdad fue un gran reto para mi poder realizarlo.🥰 
 
-En el ejercicio #3 encontrara mas detalles sobre la implementación y tecnologias usadas
+En el ejercicio #3 encontrara mas detalles sobre la implementación y tecnologias usadas.

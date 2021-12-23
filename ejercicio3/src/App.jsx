@@ -27,7 +27,7 @@ function App() {
   console.log(characters)
   return (
     <>
-      <div className="container-fluid bg-primary ">
+      <div className="container-fluid bg-primary bg-gradient vh-100 overflow-auto ">
         <header>
           <NavBar />
         </header>

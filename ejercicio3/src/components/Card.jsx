@@ -10,7 +10,7 @@ export const Card = ({ characters }) => {
 
   return (
     <>
-      <div class="row row-cols-1 row-cols-md-5 g-4 mt-2">
+      <div class="row row-cols-1 row-cols-md-5 g-4 mt-2 ">
         {characters &&
           characters.map((character) => (
             <div className="col">
