@@ -1,6 +1,6 @@
 import React from 'react'
 import './Modal.css'
-export const Modal = (characters, edited, setEdited) => {
+export const Modal = ({characters, edited, setEdited}) => {
   const actually = (e) =>{
     setEdited(e.target.value)
    
@@ -35,7 +35,7 @@ export const Modal = (characters, edited, setEdited) => {
                   className="form-control"
                 />
               </div>
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-danger">
                 Listo 
               </button>
             </form> 

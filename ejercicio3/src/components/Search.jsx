@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 export const Search = ({
   characters,
   search,
@@ -6,26 +6,25 @@ export const Search = ({
   setCharacters,
   charactersStatic,
 }) => {
-  
   useEffect(() => {
     if (search === "") {
       setCharacters(charactersStatic);
     }
-      setCharacters(filter);
-  
+    setCharacters(filter);
   }, [search]);
 
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
-  const filter = characters && characters.filter((item) => {
-    const textApi = item.name.toLowerCase();
-    if (textApi.indexOf(search) !== -1) {
-      return item;
-    }
-  });
-  //let filtersResult = characters && characters.filter((element) => element.name === e.target.value);
-  //setCharacters(filtersResult)
+  const filter =
+    characters &&
+    characters.filter((item) => {
+      const textApi = item.name.toLowerCase();
+      if (textApi.indexOf(search) !== -1) {
+        return item;
+      }
+    });
+
   return (
     <>
       <nav class="navbar navbar-light bg-dark">
