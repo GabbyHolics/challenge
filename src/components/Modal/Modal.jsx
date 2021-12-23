@@ -1,6 +1,11 @@
 import React from 'react'
 import './Modal.css'
-export const Modal = () => {
+export const Modal = (characters, edited, setEdited) => {
+  const actually = (e) =>{
+    setEdited(e.target.value)
+   
+  }
+
   return (
     <>
       <div className="modalBackground">
@@ -8,43 +13,32 @@ export const Modal = () => {
           <div className="modal-content">
           <form>
               <div className="mb-3">
-                <label for="exampleInputEmail1" className="form-label">
-                  Email address
+                <label className="form-label">
+                 Nombre
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   className="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
+                  value = {edited}
+                  onChange={actually}
                 />
-                <div id="emailHelp" class="form-text">
-                  We'll never share your email with anyone else.
+                <div  class="form-text">
+                 Escribe el nombre de tu super 
                 </div>
               </div>
               <div clasName="mb-3">
-                <label for="exampleInputPassword1" className="form-label">
-                  Password
+                <label  className="form-label">
+                 Descripción
                 </label>
                 <input
-                  type="password"
+                  type="text"
                   className="form-control"
-                  id="exampleInputPassword1"
                 />
-              </div>
-              <div className="mb-3 form-check">
-                <input
-                  type="checkbox"
-                  className="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label className="form-check-label" for="exampleCheck1">
-                  Check me out
-                </label>
               </div>
               <button type="submit" className="btn btn-primary">
-                Submit
+                Listo 
               </button>
-            </form>
+            </form> 
           </div>
         </div>
       </div>
